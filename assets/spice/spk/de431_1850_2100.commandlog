@@ -1,0 +1,17 @@
+; /Users/benhall/Desktop/tempKern/de431_1850_2100.TLS LOG FILE
+ 
+; Created 2018-01-14/21:12:38.37.
+;
+; BEGIN SPKMERGE COMMANDS
+ 
+LEAPSECONDS_KERNEL   = /Users/benhall/Desktop/tempKern/NAIF0012.TLS
+ 
+SPK_KERNEL           = /Users/benhall/Desktop/tempKern/de431_1850_2100.TLS
+  LOG_FILE         = /Users/benhall/Desktop/tempKern/de431_1850_2100.commandlog
+  SOURCE_SPK_KERNEL  = /Users/benhall/Desktop/tempKern/de431_part-2.bsp
+    INCLUDE_COMMENTS = YES
+    BODIES           = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 301, 399, 199, 299
+    BEGIN_TIME       = 1850 JAN 01 00:00:00.000
+    END_TIME         = 2100 JAN 01 00:00:00.000
+ 
+; END SPKMERGE COMMANDS
