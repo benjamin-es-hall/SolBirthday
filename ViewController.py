@@ -96,7 +96,7 @@ class App(QWidget):
     def selectDate(self, date):
         self.date = date.toString(QtCore.Qt.ISODate)
 
-
+# Class describing the figure canvas widget
 class PlotCanvas(FigureCanvas):
 
     def __init__(self, parent=None):
@@ -358,7 +358,6 @@ class SolSystem(object):
                                  self.uranus.customLabel: sizes[7],
                                  self.neptune.customLabel: sizes[8],
                                  self.pluto.customLabel: sizes[9]}
-
 
 def run():
     app = QApplication(sys.argv)
